@@ -40,7 +40,7 @@ int main() {
             " raised to the power of two is " << powerOfTwo << "\n";
         } else {
             std::cout << userNum <<
-            " is not a positive integer or whole number \n";
+            " is not a whole number integer \n";
         }
     } catch (std::invalid_argument) {
         // userNum is not an integer
