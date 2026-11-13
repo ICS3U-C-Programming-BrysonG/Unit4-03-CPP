@@ -30,14 +30,14 @@ int main() {
         if (userNumInt == userNumFlo && userNumInt > 0) {
             // Calculate the number to the power of two using a for loop
             for (int counter = 0; counter <= userNumInt; counter++) {
-                std::cout << "Tracking " << counter <<
-                " times through the loop \n";
+                std::cout << counter << "^2 = " 
+                << std::pow(counter, 2) << "\n";
                 powerOfTwo = std::pow(counter, 2);
             }
 
             // Display the result to the user
             std::cout << userNumInt <<
-            " to the power of two is " << powerOfTwo << "\n";
+            " raised to the power of two is " << powerOfTwo << "\n";
         } else {
             std::cout << userNum <<
             " is not a positive integer or whole number \n";
