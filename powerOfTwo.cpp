@@ -27,7 +27,7 @@ int main() {
         userNumFlo = std::stof(userNum);
 
         // see if it is a positive integer
-        if (userNumInt == userNumFlo && userNumInt > 0) {
+        if (userNumInt == userNumFlo && userNumInt >= 0) {
             // Calculate the number to the power of two using a for loop
             for (int counter = 0; counter <= userNumInt; counter++) {
                 std::cout << counter << "^2 = " 
